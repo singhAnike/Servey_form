@@ -1,0 +1,73 @@
+/* background style */
+		body {
+			background-color: burlywood;
+			font-style: italic;
+			text-align: center;
+		}
+/* form control style */
+
+        .form-control {
+			text-align: left;
+			margin-bottom: 20px;
+		}
+
+     /* //form style */
+		form {
+			/* //background-color: transparent; */
+            background-color: pink;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+		}
+
+		/* Styling form-control Label */
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+        /* Style input area */
+        .form-control input {
+			font-style: italic;
+            border: 1px solid #777;
+			border-radius: 2px;
+			/* font-family: inherit; */
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		/* .form-control input and also text area */
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+        .buttons button[type="submit"]
+        {
+			background-color:rgb(30, 212, 30);
+            margin-top: 35px;
+            border: 1px solid rgb(12, 14, 11);
+            font-size: 21px;
+           
+		}
+        .buttons button[type="Cancel"]
+        {
+			background-color:rgb(212, 30, 30);
+            margin-top: 35px;
+            border: 1px solid rgb(12, 14, 11);
+            font-size: 21px;
+           
+		}
+
+	

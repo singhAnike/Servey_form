@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servey Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Servey Form</h1>
+     <!-- Name -->
+
+    <form id="form">
+		<div class="form-control">
+			<label for="name" id="label-name">
+				Name
+			</label>
+			<input type="text"
+				id="name"
+				placeholder="Enter your name" />
+		</div>
+
+     <!-- Email Address -->
+
+		<div class="form-control">
+			<label for="email" id="label-email">
+				Email
+			</label>
+			<input type="email"
+				id="email"
+				placeholder="Enter your email" />
+		</div>
+
+        <!-- Phone Number -->
+
+        <div class="form-control">
+			<label for="phone" id="label-phone">
+				Phone Number
+			</label>
+			<input type="number"
+				id="number"
+				placeholder="Enter your mobile number" />
+		</div>
+         <!-- Date of Birth -->
+		<div class="form-control">
+			<label for="age" id="label-age">
+				DOB
+			</label>
+			<input type="age"
+				id="dob"
+				placeholder="Enter your Date of Birth" />
+		</div>
+        <!-- Address -->
+        <div class="form-control">
+			<label for="address" id="label-address">
+				Address
+			</label>
+			<input type="address"
+				id="dob"
+				placeholder="Enter your Address" />
+		</div>
+<!-- Multi-option -->
+		<div class="form-control">
+			<label for="role" id="label-role">
+				Which option best describes your current role-?
+			</label>
+			<select name="role" id="role">
+				<option value="Student">Student</option>
+				<option value="Intern">Intern</option>
+				<option value="Professional">
+					Professional
+				</option>
+				<option value="other">Other</option>
+			</select>
+		</div>
+
+		<div class="form-control">
+			<label>
+				How likely is that world recommend job?
+			</label>
+            <br/>
+			<label for="option-1">
+				<input type="radio" id="option-1"
+					name="option">Yes</input>
+			</label>
+            <br/>
+			<label for="option-2">
+				<input type="radio" id="option-2"
+					name="option">No</input>
+			</label>
+            <br/>
+			<label for="option-3">
+				<input type="radio" id="option-3"
+					name="option">Maybe</input>
+			</label>
+		</div>
+
+<!-- for comment -->
+
+		<div class="form-control">
+			<label for="suggestion">
+				You have Any suggestions
+			</label>
+
+			<textarea name="suggestion" id="suggestion"
+
+				placeholder="Enter your suggestion">
+
+			</textarea>
+		</div>
+        <!-- Submit button -->
+        <div class="buttons">
+            
+		<button type="submit" value="submit">
+			Submit
+		</button>
+        <button type="Cancel" value="Cancel">
+			Cancel
+		</button>
+    </div>
+        
+	</form>
+</body>
+</html>
